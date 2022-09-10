@@ -4,6 +4,8 @@ import { homeStyles } from './assets/styles/home.style';
 import { viewStyles } from './assets/styles/view.style';
 import { LinearGradient } from 'expo-linear-gradient';
 
+
+
 import { CalculadoraKeys } from './components/calculadora-keys';
 
 export default function App() {
