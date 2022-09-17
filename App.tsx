@@ -6,12 +6,12 @@ import { LinearGradient } from 'expo-linear-gradient';
 
 
 
-import { CalculadoraKeys } from './components/calculadora-keys';
+import { CalculadoraKeys } from './components/aplic';
 
 export default function App() {
   return (
     <View style={homeStyles.container}>
-      <LinearGradient colors={['#5ec5c1', '#3e93ba', '#2164b3']} style={homeStyles.container}>
+      <LinearGradient colors={['#01AA4F', '#01AA4F', '#01AA4F']} style={homeStyles.container}>
         <CalculadoraKeys></CalculadoraKeys>
       </LinearGradient>
       <StatusBar style="auto" />

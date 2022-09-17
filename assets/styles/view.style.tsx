@@ -11,32 +11,15 @@ export const viewStyles = StyleSheet.create({
     alignItems: 'center'
     
   },
-  textHeader: {
-    color: '#848484'
-  },
-  textResult: {
-    color: '#333333',
-    fontSize: 30,
-    fontWeight: '700'
-  },
-  teste: {
-    width: 200,
-    height: 200,
-    borderRadius: 110,
-    backgroundColor: '#ebf6f8'
-  },
-  background: {
-    backgroundColor: '#000000'
-
-
-  },
   
-  cadeado: {
-      position: 'absolute',
+  logo: {
+    position: 'absolute',
+    width: 190,
+    height: 128,
+    left: 112,
+    top: 384,
 
-
-
-  }
+  },
 
 
 });
